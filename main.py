@@ -1,8 +1,8 @@
 import asyncio
 import logging
 
-from pyrogram import Client, filters, idle
-from pytgcalls import PyTgCalls
+from pyrogram import Client, filters
+from pytgcalls import PyTgCalls, idle
 
 from config import API_ID, API_HASH, BOT_TOKEN, STRING_SESSION, PORT
 
